@@ -1,0 +1,83 @@
+.thumbnail {
+  object-fit: cover;
+  width: 100%;
+
+
+}
+.VideoTitle {
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
+.VideoUserName, .VideoText {
+  font: weight 300;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 5px;
+  margin-bottom: 10px;
+}
+
+
+
+.Video-Preview {
+  
+
+}
+
+.ProfilePic {
+border-radius: 100px;
+width: 100%
+
+}
+
+.Channel-Picture {
+}
+
+.VideoDescription {
+  margin-left: 25px;
+}
+
+.thumbnaildiv {
+  padding-bottom: 15px;
+position: relative;
+}
+
+.Video-Grid {
+  Display:Grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+
+}
+
+@media (max-width:750px) {
+    .Video-Grid {
+    grid-template-columns: 1fr 1fr;
+  
+  }
+}
+
+@media (min-width:1000px) {
+  .Video-Grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+}
+
+.bottom-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.VideoTimer {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right:5px;
+  font-family: Ubuntu;
+  font-size: 14px;
+  padding:4px;
+  border-radius: 5px;
+}

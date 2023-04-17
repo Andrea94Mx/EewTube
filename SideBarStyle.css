@@ -1,0 +1,42 @@
+.SideBar {
+position: fixed;
+background-color: white;
+bottom: 0px;
+left: 0px;
+top: 65px;
+width: 72px;
+z-index: 99;
+}
+
+.SideBarLink {
+  background-color: white;
+  width: 72px;
+  height: 55;
+  margin-top: 10px;
+  margin-bottom:10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor:pointer;
+}
+
+.SideBarLink:hover {
+background-color:lightgray ;
+}
+
+.HomeLink {
+
+}
+
+.HomeImage {
+  height: 30px;
+  padding-left: 20px;
+
+}
+
+.SideBarText {
+  font-family: Ubuntu;
+  font-size: 9px;
+  text-align: center;
+
+}
